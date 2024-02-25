@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="./studentRegistration.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="heading">Student Login</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="regNumber">Registration Number:</label>
+                <input type="text" id="regNumber" name="regNumber" placeholder="Enter your registration number" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Official email ID:</label>
+                <input type="text" id="email" name="email" placeholder="Enter your CHRIST email ID" required>
+            </div>
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course" placeholder="Enter course that you are enrolled in" required>
+            </div>
+            <div class="form-group">
+                <label for="semester">Semester:</label>
+                <input type="text" id="semester" name="semester" placeholder="Enter current semester" required>
+            </div>
+            <div class="form-group">
+                <label for="academicyear">Academic Year:</label>
+                <input type="text" id="academicyear" name="academicyear" placeholder="Enter academic year" required>
+            </div>
+            <div class="form-group">
+                <label for="photo">Upload Photograph:</label>
+                <input type="file" id="photo" name="photo" accept="image/*" required>
+            </div>
+            <!-- <div class="form-group">
+                <label for="academicPerformance">Previous Academic Performance:</label>
+                <canvas id="academicPerformanceChart"></canvas>
+            </div> -->
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
